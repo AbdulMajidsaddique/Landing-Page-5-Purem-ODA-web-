@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 2vh 1.5vw;
+}
+#nav{
+    width: 100%;
+    height: 10vh;
+    border-radius: 25px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 1vw;
+}
+#nav-left{
+    width: 30%;
+}
+#nav-left h1{
+    font-size: 1.6vw;
+    font-weight: 800;
+}
+#nav-Center{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-Center h2{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+#nav-right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    justify-content: flex-end;
+}
+.search-bar {
+    width: 180px;
+    padding: 10px;
+    padding-left: 40px; 
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background: url('https://img.icons8.com/ios-filled/50/000000/search.png') no-repeat;
+    background-position: 10px center; 
+    background-size: 20px; 
+}
+
+.search-bar::placeholder {
+    color: #aaa;
+}
+#nav-right i{
+    font-size: 1.7vw;
+}
+#Hero{
+    width: 100%;
+    height: calc(100% - 10vh);
+    margin-top: 1.5vh;
+    display: flex;
+}
+#hero-left{
+    width: 55%;
+    height: 100%;
+}
+#boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+#hero-left #box1{
+    width: 98%;
+    height: 60%;
+    background-color: #DBDAD7;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+#hero-left #box1 h1{
+    font-family: monument;
+    font-size: 3vw;
+    line-height: 7vh;
+    padding: 10px;
+}
+#hero-left #box1 p{
+    width: 80%;
+    padding: 10px;
+    padding-top: 16vh;
+    text-align: justify;
+}
+#hero-left #box2{
+    width: 52%;
+    height: 30vh;
+    border-radius: 20px;
+    margin: 10px 10px;
+    position: relative;
+}
+#hero-left #box2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    object-position: 20% 10%;
+}
+#hero-left #box2 h3{
+    position: absolute;
+    top: 77%;
+    left: 10%;
+    color: #fff;
+    font-size: 2.5vw;
+}
+#hero-left #box3{
+    width: 52%;
+    height: 30vh;
+    margin: 10px 10px;
+    position: relative;
+}
+#hero-left #box3 h3{
+    position: absolute;
+    top: 77%;
+    left: 10%;
+    color: #fff;
+    font-size: 2.5vw;
+    
+}
+#hero-left #box3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    object-position: center;
+}
+#hero-right {
+    width: 45%;
+    height: 100%;
+}
+
+#imgright {
+    width: 98%;
+    height: 98%;
+    border-radius: 30px;
+    margin: 0.5vw;
+    position: relative;
+}
+
+#imgright img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    object-position: center;
+}
+
+/* Buttons container */
+.hero-buttons {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+/* Button styles */
+.hero-buttons button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 190px; 
+    padding: 12px 25px; 
+}
+
+/* Learn More Button */
+.learn-more {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.learn-more i {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 10px; /* Adjust padding for larger icon */
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+
+/* Contact Us Button */
+.contact-us {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.contact-us i {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 10px; 
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+#Conto{
+    border: 1px solid #fff;
+}
